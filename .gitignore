@@ -1,0 +1,8 @@
+vendor/
+.idea/
+*.lock
+
+# qa-tools tools 
+.php_cs.cache
+.phpunit.result.cache
+

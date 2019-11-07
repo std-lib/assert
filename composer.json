@@ -1,0 +1,24 @@
+{
+    "name": "std/assert",
+    "description": "Assertions to validate method input/output with nice error messages.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":  "Bernhard Schussek",
+            "email": "bschussek@gmail.com"
+        },
+        {
+            "name":  "A.B. Carroll"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "webmozart/assert": "^1.5"
+    },
+    "autoload": {
+        "classmap": [
+            "src/Assert.php"
+        ]
+    }
+}
